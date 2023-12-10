@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(235, 254, 235);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 46px;
+  background-color: green;
+  padding: 32px;
+  color: white;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  padding: 32px;
+  margin: 46px auto;
+  border: 1px solid green;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.artists-menu {
+  display: none;
+}
+
+.menu select {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+
+.menu option {
+  width: 100%;
+}

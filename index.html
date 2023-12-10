@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata specifying character set and viewport for responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the web page -->
+    <title>adv 3.2</title>
+    <!-- Link to an external stylesheet (main.css) for styling -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- Page header -->
+    <header>
+      <!-- Main title of the page -->
+      <h1>Cascading Menu 🗒️</h1>
+    </header>
+    <!-- Main content section with a container div -->
+    <section class="container">
+      <!-- First menu for selecting a band -->
+      <div class="menu">
+        <!-- Label for the band dropdown -->
+        <label for="bands">Choose a band:</label>
+        <!-- Dropdown menu for bands with an initial placeholder option -->
+        <select name="bands" id="bands">
+          <option value="empty">Please select a band</option>
+        </select>
+      </div>
+      <!-- Second menu for selecting an artist, initially hidden -->
+      <div class="menu artists-menu">
+        <!-- Label for the artist dropdown -->
+        <label for="artists">Choose an artist:</label>
+        <!-- Dropdown menu for artists with an initial placeholder option -->
+        <select name="artists" id="artists">
+          <option value="empty">Please select an artist</option>
+        </select>
+      </div>
+    </section>
+    <!-- Link to an external JavaScript file (main.js) for behavior -->
+    <script src="./main.js"></script>
+  </body>
+</html>
