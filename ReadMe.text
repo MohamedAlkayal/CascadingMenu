@@ -1,0 +1,38 @@
+Cascading Menu 🗒️
+This project is a simple web application with cascading dropdown menus, allowing users to select a band and an artist dynamically.
+
+Getting Started
+These instructions will help you set up and run the project on your local machine.
+
+Prerequisites
+Web browser (e.g., Chrome, Firefox)
+Code editor (e.g., Visual Studio Code)
+Installation
+Clone the repository:
+
+Copy code
+git clone https://github.com/your-username/your-repository.git
+Open the project folder:
+
+Copy code
+cd cascading-menu
+Open index.html in your preferred web browser.
+
+Usage
+Open index.html in a web browser.
+Choose a band from the first dropdown menu.
+Once a band is selected, the second dropdown menu will populate with artists related to the chosen band.
+Select an artist from the second dropdown menu.
+Contributing
+If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+Create a new branch: git checkout -b feature/new-feature.
+Make your changes and commit them: git commit -m 'Add new feature'.
+Push to the branch: git push origin feature/new-feature.
+Submit a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Thanks to [Eng. Mai] for inspiration and guidance.
