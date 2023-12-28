@@ -16,7 +16,7 @@ These instructions will help you set up and run the project on your local machin
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/KungFuKelo/CascadingMenu.git
     ```
 
 2. Open the project folder:
@@ -44,10 +44,7 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-Thanks to [Eng. Mai] for inspiration and guidance.
+Thanks to [Eng. Mai Mostafa] for inspiration and guidance.
